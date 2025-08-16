@@ -1,4 +1,6 @@
 // app/play/page.tsx
+import Link from "next/link";
+
 export default function PlayPage() {
   return (
     <main className="min-h-screen bg-white text-gray-900">
@@ -7,9 +9,9 @@ export default function PlayPage() {
         <p className="mt-3 text-gray-600">
           Tomorrow we’ll add the camera + AI detection. For now, this is your play space.
         </p>
-        <a href="/" className="mt-8 inline-block underline">
+        <Link href="/" className="mt-8 inline-block underline">
           ← Back to Home
-        </a>
+        </Link>
       </section>
     </main>
   );

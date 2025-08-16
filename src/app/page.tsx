@@ -1,4 +1,6 @@
 // app/page.tsx
+import Link from "next/link";
+
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-white text-gray-900">
@@ -9,20 +11,24 @@ export default function HomePage() {
         <p className="mt-4 text-lg text-gray-600">
           Record a quick selfie, let AI detect your mood, and get the perfect Spotify playlist.
         </p>
+
         <div className="mt-8 flex items-center justify-center gap-3">
-          <a
+          <Link
             href="/play"
             className="rounded-2xl border px-6 py-3 text-base font-medium hover:shadow-md transition"
           >
             Capture Mood →
-          </a>
+          </Link>
+
           <a
-            href="https://github.com/SaujanyaPandey/Moodify"
+            href="https://github.com/yourname/moodify"
             className="rounded-2xl px-6 py-3 text-base font-medium underline"
+            target="_blank" rel="noreferrer"
           >
             Star the repo
           </a>
         </div>
+
         <p className="mt-10 text-sm text-gray-500">Day 1 MVP scaffold • Camera coming next</p>
       </section>
     </main>
