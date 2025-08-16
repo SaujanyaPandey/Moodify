@@ -17,7 +17,7 @@ export default function HomePage() {
             Capture Mood →
           </a>
           <a
-            href="https://github.com/yourname/moodify"
+            href="https://github.com/SaujanyaPandey/Moodify"
             className="rounded-2xl px-6 py-3 text-base font-medium underline"
           >
             Star the repo
